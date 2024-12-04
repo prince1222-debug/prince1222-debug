@@ -34,3 +34,31 @@
 // const myFunction = function(){
 //     console.log("Hello World")
 // }
+
+
+/////  Memories and it Types /////
+
+// Stack and Heap Memory 
+// Stack memory used in Primitive Datatypes.
+// Heap memory are used in Non Primitive Datatypes.
+
+// Stack memories exmample given below:
+
+// let num1 = 12
+// let num2 = num1
+// num2 = 42
+// console.log(num1); // here num1 will not be changes as this is an example of stack memories
+// console.log(num2); 
+
+// // Heap memories example is given below
+
+// let userOne = {
+//     email:"prince@google.com",
+//     city:"Patna"
+// }
+// let userTwo = userOne
+
+// userTwo.email = "user@google.com"
+
+// console.log(userOne.email)
+// console.log(userTwo.email)
